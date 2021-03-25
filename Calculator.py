@@ -2,7 +2,7 @@ from tkinter import *
 
 root=Tk()
 
-root.title("Calculator ~by Sarvesh Mankar")
+root.title("Calculator ~by Sam Tech")
 
 def click(num):
     cur=e.get()
