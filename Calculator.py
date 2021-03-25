@@ -59,10 +59,7 @@ def equal():
     if o=="Divide":
         e.insert(0,f/float(second))
         
-
-
 e=Entry(root,width=56,borderwidth=5,bg="Light Green")
-
 
 button1=Button(root,text="1",width=8,padx=10,pady=10,bg="Orange",command=lambda: click(1))
 button2=Button(root,text="2",width=9,padx=10,pady=10,bg="Orange",command=lambda: click(2))
