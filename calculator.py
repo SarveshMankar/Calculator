@@ -129,7 +129,6 @@ def equal():
             lst.remove('')
     except:
         pass
-    print(lst)
 
     if lst[0]=='+' or lst[0]=='-':
         lst[1]=lst[0]+lst[1]
@@ -146,7 +145,6 @@ def equal():
             lst.remove('')
     except:
         pass
-    print(lst)
 
     op=0
     cl=0
